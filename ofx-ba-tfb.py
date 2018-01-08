@@ -16,6 +16,7 @@ sites = {
                 "fiorg": "B1",
                   "fid": "10898",
                   "url": "https://ofx.chase.com",
+                  "clientuid": "INSERT CLIENT UID HERE"
                },
    "fidelity": {
                  "caps": [ "SIGNON", "INVSTMT" ],
@@ -81,6 +82,7 @@ class OFXClient:
                          _tag("FI", *fidata),
                          _field("APPID",config["appid"]),
                          _field("APPVER",config["appver"]),
+                         _field("CLIENTUID",config["clientuid"]),
                          ))
 
     def _acctreq(self, dtstart):
