@@ -16,7 +16,7 @@ sites = {
                 "fiorg": "B1",
                   "fid": "10898",
                   "url": "https://ofx.chase.com",
-                  "clientuid": "INSERT CLIENT UID HERE"
+                  "clientuid": "8c2cfea6-bae5-4916-98aa-0f86ecc1d628"
                },
    "fidelity": {
                  "caps": [ "SIGNON", "INVSTMT" ],
